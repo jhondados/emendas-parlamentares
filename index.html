@@ -54,7 +54,7 @@ input,textarea{outline:none}
 <div id="root"></div>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const CFG={"slug": "emendas-parlamentares", "titulo": "Análise de Emendas Parlamentares", "vertical": "Governança", "descricao": "Análise de emendas parlamentares com IA. Rastreia destino dos recursos, mede execução e identifica padrões suspeitos de alocação.", "ia": ["ML", "NLP", "Network Analysis"], "demo": "dashboard", "fonte": "Portal da Transparência + SIOP", "fonteUrl": "https://portaldatransparencia.gov.br", "kpis": [{"label": "Emendas", "value": "42K", "delta": ""}, {"label": "Recursos", "value": "R$ 38B", "delta": ""}, {"label": "Execução", "value": "67%", "delta": ""}, {"label": "Alertas", "value": "240", "delta": ""}], "chartType": "bar", "chartLabel": "Emendas por Área", "series": [57.3, 65.2, 66.9, 77.3, 79.2, 79.4, 85.4, 80.9, 82.5, 75.0, 75.8, 69.9, 74.1, 72.8, 73.6, 83.8, 86.1, 95.4, 94.7, 99.5, 94.1, 95.1, 87.6, 88.8], "features": ["Rastreamento de recursos", "Taxa de execução por emenda", "Análise de rede parlamentar", "Detecção de padrões"], "color": "#6366f1", "icon": "🏛️", "portfolioUrl": "https://jhondados.github.io/portfolio", "githubUser": "jhondados"};
 const {useState,useEffect,useRef,useMemo}=React;
